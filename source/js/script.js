@@ -1,12 +1,4 @@
-$('.header-burger').click(function () {
-   $('.header-burger, .menu-body').toggleClass('act');
-   $('body').toggleClass('lock');
-});
 
-$('.menu-body').click(function () {
-   $('.header-burger, .menu-body').removeClass('act');
-   $('body').removeClass('lock');
-});
 
 
 
